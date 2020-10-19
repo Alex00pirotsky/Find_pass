@@ -88,7 +88,7 @@ void Move::make_step(Point pr_pos, char change, Point n_pos)
 
 void Move::save_road()
 {
-    road = "ALL ROAD";
+    road = "ALL ROAD\n";
     for(auto & i : main_road)
     {
         road += "X = ";

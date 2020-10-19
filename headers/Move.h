@@ -12,6 +12,7 @@
 #include <vector>
 #include <string>
 
+using namespace std;
 
 class Move {
 public:
