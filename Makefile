@@ -1,5 +1,5 @@
 all:
-	g++ ./src/*.cpp ./headers/*.h
+	g++ ./src/*.cpp
 clean:
-		rm -rf ./headers/*.gch ./src/*.gch a.out
+	rm -rf ./headers/*.gch ./src/*.gch a.out
 
