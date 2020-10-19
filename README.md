@@ -2,7 +2,7 @@
 # A program that finds a path throughout the map to collect all the "loot" on the map in random locations.
 
 #input:
-#  Path to the file in which the map (examples in the /// folder)
+#  Path to the file in which the map (examples in folder examples)
 
 #  The path to the file in which it will be saved: The starting position of the player, the position of the loot and the entire path traveled by the player
 
