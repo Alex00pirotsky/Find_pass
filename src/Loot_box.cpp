@@ -82,10 +82,11 @@ void Loot_box::del_it(Point a)
         if(loot_coord[i].x == a.x && loot_coord[i].y == a.y)
         {
             loot_coord.erase(loot_coord.begin() + i);
+            this->how_many_loot -= 1;
+
             break;
         }
     }
-    this->how_many_loot -= 1;
 }
 
 void Loot_box::Set_loot_count(int count)
